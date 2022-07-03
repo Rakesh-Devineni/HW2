@@ -1,0 +1,90 @@
+body {
+    background: #0dbce3;
+}
+
+header,
+main,
+footer {
+    min-width: 1200px;
+}
+
+header .card {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background: #0dbce3;
+    overflow: hidden;
+}
+
+main {
+    background: rgb(234, 228, 228);
+    display: flow-root;
+    /* padding: 100px; */
+    padding-bottom: 247px;
+    padding-top: 31px;
+    padding-left: 61px;
+}
+
+header h1 {
+    float: left;
+    width: 1200px;
+    text-align: center;
+    width: 1200px;
+    height: 20px;
+}
+
+header nav {
+    float: right;
+    width: 265px;
+    padding-bottom: 11px;
+}
+
+.tabInfo a span {
+    display: inline-block;
+    border-radius: 5px 5px 0 0;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    background: #0dbce3;
+    padding: 5px;
+}
+
+tabInfo a span.activeTab {
+    background:black;
+}
+
+footer .sitemapInfo .left {
+    float: left;
+}
+
+footer .sitemapInfo .right {
+    float: right;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    padding: 0px 0 0px 0;
+}
+
+
+footer .contactInfo {
+    float: left;
+    width: 500px;
+}
+
+
+footer .sitemapInfo {
+    float: right;
+    width: 400px;
+    font: 1em sans-serif;
+}
+
+footer ul {
+    width: 100px;
+    
+}
+footer li {
+    list-style: none;
+}
